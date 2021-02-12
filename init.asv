@@ -1,0 +1,15 @@
+
+
+
+%% Inizio lavoro sui motori.
+
+syms L R Km Kw b J 
+
+% Dinamica Motore
+
+A = [ -R/L , -Km/L;
+       Kw/J, -b/J  ];
+   
+B = [ 1/L;0];
+
+%% 
